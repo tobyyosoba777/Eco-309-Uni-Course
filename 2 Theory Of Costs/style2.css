@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+}
+
+body {
+    background-color: #fff;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    height: 75px;
+    color: #fff;
+}
+
+.nav header {
+    align-items: center;
+    display: flex;
+    /* justify-content: space-between; */
+}
+
+.nav header img {
+    height: 60px;
+    width: 60px;
+    border-radius: 20%;
+}
+
+.nav header h3 {
+    font-size: 1.4rem;
+}
+
+.nav .outline {
+    font-size: 1.8rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero1 {
+    margin: 0 auto 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero1 .navlist {
+
+}
+
+.hero1 .navlist a {
+    font-size: 1.3rem;
+
+}
+
+.hero .topics {
+    margin: 3em 1em;
+}
+
+.hero .topics .content {
+    font-size: 1.1rem;
+}
+
+.hero figure {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* margin: 0; */
+    /* width: 20px; */
+}
+
+.hero figure img {
+    /* width: 100%; */
+}
+
+
+.hero .conclusion {
+    font-size: 1.23rem;
+}
+
+@media screen and (max-width: 992px) {
+    .nav .outline {
+        font-size: 1.2em;
+    }
+    
+    .nav header h3 {
+        font-size: 1.2em;
+    }
+    
+}
